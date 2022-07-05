@@ -20,6 +20,21 @@ a{text-decoration: none;
 
 }
 
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   list-style-type: none;
+}
+li{
+  font-size: 50px;
+  text-align: center;
+}
+
+ol{
+  margin: 0;
+  margin-bottom: 25px;
+}
+
 .banner{
   width: 100%;
   margin-bottom: 100px;
@@ -84,8 +99,13 @@ width: 20%;
 
 }
 
+.redbanner2 h3{
+  text-align: start;
+  margin: 0 0 0 50px;
+}
+
 .redbanner2 p{
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
 /* .redbanner2 .album{
   position: absolute;
@@ -93,8 +113,13 @@ width: 20%;
   right: 0px;
 } */
 
+.redbanner2 li{
+
+font-size: 25px;}
+
 .album{
   padding-left: 20px;
+  margin-top: 50px;
 }
 
 .button {
@@ -123,4 +148,23 @@ width: 20%;
 .button-1:hover {
   box-shadow: 0 0 10px 0 red inset, 0 0 20px 2px red;
   border: 3px solid red;
+}
+
+
+.background{
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FBFBFB;
+}
+
+.marginlists{
+  margin-top: 150px;
+}
+
+.imgsize{
+  height: 350px;
+  width: 300px;
 }

@@ -1,11 +1,12 @@
 body{
 background-color: #0C0C11;
 margin: 0 auto;
+font-family: 'Teko', sans-serif;
 }
 
 .banner{
   width: 100%;
-  margin-bottom: 320px;
+  margin-bottom: 100px;
 }
 
 .container{
@@ -17,4 +18,23 @@ margin: 0 auto;
 .redbanner{
   background-color: #2B0E14;
   width: 100%;
+  font-size: 85px;
+  border-radius: 15px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.redbanner .demo{
+position: absolute;
+bottom: 0px;
+left: 60px;
+}
+
+.redbanner h1{
+  color: #FBFBFB;
+  font-size: 85px;
+  font-weight: 400;
+
 }

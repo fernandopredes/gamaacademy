@@ -12,7 +12,7 @@ font-family: 'Teko', sans-serif;
 .container{
   margin: auto;
   width: 1116px;
-  display: flex;
+
 }
 
 .redbanner{
@@ -24,6 +24,7 @@ font-family: 'Teko', sans-serif;
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-bottom: 200px;
 }
 
 .redbanner .demo{
@@ -38,3 +39,29 @@ left: 60px;
   font-weight: 400;
 
 }
+
+.redbanner2{
+  background-color: #2B0E14;
+  width: 100%;
+  border-radius: 15px;
+  padding-left: 25px;
+  display: flex;
+ /*  position: relative; */
+  color: #FBFBFB;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.redbanner2 h2{
+  color: #FBFBFB;
+  font-size: 49px;
+  font-weight: 400;
+
+}
+
+/* .redbanner2 .album{
+  position: absolute;
+  top: -80px;
+  right: 0px;
+} */

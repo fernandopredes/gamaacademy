@@ -40,7 +40,7 @@ a{text-decoration: none;
   justify-content: space-between;
   position: relative;
   margin-bottom: 200px;
-  margin-right: 100px;
+
 }
 
 .redbanner .demo{
@@ -53,6 +53,7 @@ left: 60px;
   color: #FBFBFB;
   font-size: 85px;
   font-weight: 400;
+  margin-right: 100px;
 
 }
 

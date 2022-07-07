@@ -1,9 +1,28 @@
 body{
   margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+}
+
+li{
+  list-style-type: none;
+  color: #FDFDFD;
+  font-weight: 700;
 }
 
 .nav-top{
+height: 117px;
+background-color: #FFC107;
+text-align: center;
+vertical-align: middle;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.nav-top img{
+  margin-top: 16px;
 }
 
 .container1{

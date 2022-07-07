@@ -7,6 +7,25 @@ body{
   text-transform: lowercase;
 }
 
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFA000;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFA000;
+}
+
+h3{
+
+}
+
 li{
   list-style-type: none;
   color: #FDFDFD;
@@ -19,6 +38,11 @@ ul{
   display: flex;
   justify-content: center;
   margin: 0;
+}
+
+.column{
+  display: flex;
+  margin-top: 107px;
 }
 
 .superpadding{
@@ -44,6 +68,13 @@ position: relative;
 
 .container1{
   width: 592px;
-  display: flex;
+  flex-direction:column;
+  margin: 0 auto 137px auto;
+
+}
+
+.container2{
+  width: 592px;
+  flex-direction:column;
   margin: auto;
 }

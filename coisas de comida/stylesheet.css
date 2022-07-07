@@ -21,7 +21,9 @@ ul{
   margin: 0;
 }
 
-
+.superpadding{
+  margin: 0 58px;
+}
 
 .nav-top{
 height: 117px;

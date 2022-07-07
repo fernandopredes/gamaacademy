@@ -7,12 +7,18 @@ body{
   text-transform: lowercase;
 }
 
+a{
+  text-decoration: none;
+  color: #FDFDFD;
+}
+
 h1{
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
   color: #FFA000;
+  margin-bottom: 41px;
 }
 
 h2{
@@ -20,6 +26,7 @@ h2{
   font-size: 30px;
   line-height: 37px;
   color: #FFA000;
+  margin: 0;
 }
 
 h3{
@@ -70,11 +77,15 @@ position: relative;
   width: 592px;
   flex-direction:column;
   margin: 0 auto 137px auto;
+}
+
+.container1 img{
+  margin-bottom: 25px;
 
 }
 
 .container2{
   width: 592px;
   flex-direction:column;
-  margin: auto;
+  margin: 71px auto 0 auto;
 }

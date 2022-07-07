@@ -7,6 +7,23 @@ body{
   text-transform: lowercase;
 }
 
+footer{
+  margin-top: 285px;
+  height: 119px;
+  background-color: #FFC107;
+  display: flex;
+  align-items: center;
+}
+
+footer p{
+  margin: 0 0 0 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FDFDFD;
+}
+
 a{
   text-decoration: none;
   color: #FDFDFD;
@@ -26,7 +43,7 @@ h2{
   font-size: 30px;
   line-height: 37px;
   color: #FFA000;
-  margin: 0;
+  margin: 0 0 36px 0;
 }
 
 h3{
@@ -58,6 +75,12 @@ ul{
 .column{
   display: flex;
   margin-top: 107px;
+
+}
+
+.center{
+
+  justify-content: space-evenly;
 }
 
 .supermargin{
@@ -82,9 +105,9 @@ position: relative;
 }
 
 .container1{
-  width: 592px;
+  max-width: 592px;
   flex-direction:column;
-  margin: 0 auto 137px auto;
+  margin: 0 0 137px 0;
 }
 
 .container1 img{
@@ -93,9 +116,9 @@ position: relative;
 }
 
 .container2{
-  width: 592px;
+  max-width: 592px;
   flex-direction:column;
-  margin: 71px auto 0 auto;
+  margin: 115px 0 0 0;
 }
 
 .btn{
@@ -121,6 +144,14 @@ position: relative;
 }
 
 .card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 345px;
+  margin-bottom: 55px;
+}
+
+.cardextra{
+  margin-bottom: 90px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 345px;

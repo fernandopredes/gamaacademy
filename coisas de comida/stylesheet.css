@@ -30,7 +30,15 @@ h2{
 }
 
 h3{
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #000000;
+  margin: 0;
+  padding: 19px 0;
 }
 
 li{
@@ -52,7 +60,7 @@ ul{
   margin-top: 107px;
 }
 
-.superpadding{
+.supermargin{
   margin: 0 58px;
 }
 
@@ -88,4 +96,32 @@ position: relative;
   width: 592px;
   flex-direction:column;
   margin: 71px auto 0 auto;
+}
+
+.btn{
+  border: 1px solid #176902;
+  border-radius: 47px;
+  color: #176902;
+  padding: 7px 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.supermargin2{
+  margin-left: 19px;
+
+}
+
+.risoto p{
+  margin-top: 65px;
+  margin-bottom: 37px;
+}
+
+.card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 345px;
 }

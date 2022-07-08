@@ -104,6 +104,14 @@ position: relative;
   background-color: #FFA000;
 }
 
+.main-pic{
+  background: url(./img/image\ 1.png) no-repeat center center ;
+
+
+  max-width: 1440px;
+
+}
+
 .container1{
   max-width: 592px;
   flex-direction:column;

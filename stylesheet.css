@@ -72,18 +72,21 @@ ul{
   margin: 0;
 }
 
-form{
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-align-items: center;
-text-transform: lowercase;
-color: #58555D;
+form, textarea, input{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-transform: lowercase;
+  color: #58555D;
+}
+::placeholder {
+   color:    #58555D;
 }
 
-input{
+input, textarea{
   width: 750px;
   border: 1px solid #FFA000;
   border-radius: 7px;
@@ -321,6 +324,7 @@ padding: 10px 43px 15px 43px;
 .img-contato{
   max-height: 100%;
   margin-top: 97px;
+  margin-right: 15px;
 }
 
 .contato{
@@ -339,5 +343,43 @@ padding: 10px 43px 15px 43px;
   line-height: 46px;
   color: #FFC107;
   text-transform: none;
+  margin-bottom: 97px;
 
+}
+
+#text{
+  min-height: 293px;
+  min-width: 749px;
+  resize: none;
+  padding-top: 38px;
+  padding-left: 31px;
+}
+
+#nome{
+  min-height: 48px;
+  padding-left: 31px;
+
+}
+
+#email{
+  min-height: 48px;
+  margin: 22.8px 0 21.3px 0;
+  padding-left: 31px;
+}
+
+#button-form{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+background-color: #FFC107;
+border: none;
+padding: 14px 58px;
+border-radius: 50px;
+margin-top: 16.4px;
+cursor: pointer;
 }

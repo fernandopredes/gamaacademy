@@ -332,7 +332,7 @@ padding: 10px 43px 15px 43px;
   border: 1px solid #FFA000;
   border-radius: 20px;
   margin-top: 102px;
-  padding: 64px 33px;
+  padding: 64px 33px 0 33px;
 }
 
 .contato h2{
@@ -343,7 +343,7 @@ padding: 10px 43px 15px 43px;
   line-height: 46px;
   color: #FFC107;
   text-transform: none;
-  margin-bottom: 97px;
+  margin-bottom: 50px;
 
 }
 

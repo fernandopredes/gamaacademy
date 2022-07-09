@@ -72,6 +72,23 @@ ul{
   margin: 0;
 }
 
+form{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+align-items: center;
+text-transform: lowercase;
+color: #58555D;
+}
+
+input{
+  width: 750px;
+  border: 1px solid #FFA000;
+  border-radius: 7px;
+}
+
 .column{
   display: flex;
   margin-top: 107px;
@@ -132,10 +149,10 @@ position: relative;
   text-align: center;
 }
 
-/* .flex{
+.flex{
   display: flex;
   justify-content: space-evenly;
-} */
+}
 .container-main{
   width: 1192px;
   margin: 0 auto;
@@ -276,4 +293,51 @@ padding: 10px 43px 15px 43px;
   background-color: #176902;
   padding: 10px 43px 15px 43px;
   margin-bottom: 22px;
+}
+
+
+.banner{
+  background-image:url(./img/banner.png);
+  background-size: cover;
+  background-position: top;
+  height: 22vw;
+
+
+}
+
+.banner h1{
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  text-transform: lowercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  color: #FFFFFF;
+  padding-top: 51px;
+  margin-bottom: 283px;
+}
+
+.img-contato{
+  max-height: 100%;
+  margin-top: 97px;
+}
+
+.contato{
+  box-sizing: border-box;
+  border: 1px solid #FFA000;
+  border-radius: 20px;
+  margin-top: 102px;
+  padding: 64px 33px;
+}
+
+.contato h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FFC107;
+  text-transform: none;
+
 }
